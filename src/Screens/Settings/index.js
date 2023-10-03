@@ -111,16 +111,16 @@ function SettingsScreen(props) {
         <List.Item title="Version" description={version} />
         <List.Item
           title="Repository"
-          description="https://github.com/revtel/react-native-nfc-rewriter"
+          description="https://github.com/SIGDAO/react-native-nfc-rewriter"
           onPress={() => {
             Linking.openURL(
-              'https://github.com/revtel/react-native-nfc-rewriter',
+              'https://github.com/SIGDAO/react-native-nfc-rewriter',
             );
           }}
         />
         <List.Subheader>Creators</List.Subheader>
         <List.Item
-          title="Revteltech 忻旅科技"
+          title="ihashing.hk"
           left={() => (
             <Image
               source={require('../../../images/revicon_512.png')}
@@ -128,25 +128,11 @@ function SettingsScreen(props) {
               resizeMode="contain"
             />
           )}
-          description="https://www.revtel.tech/en"
+          description="https://www.ihashing.hk"
           onPress={() => {
-            Linking.openURL('https://www.revtel.tech/en');
+            Linking.openURL('https://www.ihashing.hk');
           }}
-        />
-        <List.Item
-          title="Washow 萬象創造"
-          left={() => (
-            <Image
-              source={require('../../../images/washow_icon.png')}
-              style={styles.maintainerIcon}
-              resizeMode="contain"
-            />
-          )}
-          description="http://www.washow.cc"
-          onPress={() => {
-            Linking.openURL('http://www.washow.cc');
-          }}
-        />
+        />   
       </List.Section>
 
       <View style={{padding: 12}}>
