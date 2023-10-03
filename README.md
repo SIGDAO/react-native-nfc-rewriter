@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  Made with ❤️ by <a href="https://github.com/whitedogg13">whitedogg13</a> and <a href="https://github.com/revtel">revteltech</a>
+  Made with ❤️ by ihashing.hk
 </p>
 
 <table align="center">
@@ -91,17 +91,3 @@ The NFC library is powered by <a href="https://github.com/facebook/react-native"
     - rolling code verification
 - Save your own records
 
-## Made by
-
-<table>
-<tr>
-  <td>
-      <img alt="revtel" src="./images/revicon_512.png" width="72">
-      <h3 align="center">Revteltech</h3>
-  </td>
-  <td>
-      <img alt="washow" src="./images/washow_icon.png" width="72">
-      <h3 align="center">Washow</h3>
-  </td>
-</tr>
-</table>
